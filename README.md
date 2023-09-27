@@ -13,8 +13,8 @@ A short Python program that plays hourly Animal Crossing themes.
    - Cannot provide these files due to copyright reasons
    - Keep files in the same directory
 2. Name the variants (without brackets):
-   - Sunny: `[Hour][am/pm].mp3`
-   - Rainy/Snowy: `[Hour][am/pm] [Rainy/Snowy].mp3`
+   - Sunny: `[Hour][am/pm].wav`
+   - Rainy/Snowy: `[Hour][am/pm] [Rainy/Snowy].wav`
 3. Run the program
 
 ### Enjoy!

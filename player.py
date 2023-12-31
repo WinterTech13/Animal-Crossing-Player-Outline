@@ -16,11 +16,7 @@ def timecheck(hour):
     return song
 
 def wintercheck(month, day):
-    if month == 1:
-        snowy = True
-    elif month == 2 and day <= 24:
-        snowy = True
-    elif month == 11 and day >= 26:
+    if (month == 1 or month == 12) or (month == 2 and day <= 24) or (month == 11 and day >= 26):
         snowy = True
     else:
         snowy = False
